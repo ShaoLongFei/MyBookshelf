@@ -56,7 +56,7 @@
                 android:layout_height="wrap_content"
                 tools:ignore="RtlSymmetry" />
 
-            <com.kunfei.bookshelf.widget.views.ATESeekBar
+            <com.liuyue.daydaybook.widget.views.ATESeekBar
                 android:id="@+id/seek_bar"
                 android:layout_width="0dp"
                 android:layout_height="25dp"

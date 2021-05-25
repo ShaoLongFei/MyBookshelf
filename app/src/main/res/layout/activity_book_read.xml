@@ -8,7 +8,7 @@
     android:orientation="vertical">
 
     <!--阅读页面-->
-    <com.kunfei.bookshelf.widget.page.PageView
+    <com.liuyue.daydaybook.widget.page.PageView
         android:id="@+id/pageView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -16,21 +16,21 @@
         android:focusable="true"
         tools:visibility="gone" />
 
-    <com.kunfei.bookshelf.widget.seekbar.VerticalSeekBarWrapper
+    <com.liuyue.daydaybook.widget.seekbar.VerticalSeekBarWrapper
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_marginTop="30dp"
         android:layout_marginBottom="20dp"
         tools:ignore="RtlHardcoded">
 
-        <com.kunfei.bookshelf.widget.seekbar.VerticalSeekBar
+        <com.liuyue.daydaybook.widget.seekbar.VerticalSeekBar
             android:id="@+id/pb_nextPage"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:visibility="invisible"
             app:seekBarRotation="CW270" />
 
-    </com.kunfei.bookshelf.widget.seekbar.VerticalSeekBarWrapper>
+    </com.liuyue.daydaybook.widget.seekbar.VerticalSeekBarWrapper>
 
     <ImageView
         android:id="@+id/cursor_left"
@@ -48,14 +48,14 @@
         android:src="@drawable/ic_cursor_right"
         android:visibility="invisible" />
 
-    <com.kunfei.bookshelf.view.popupwindow.ReadLongPressPop
+    <com.liuyue.daydaybook.view.popupwindow.ReadLongPressPop
         android:id="@+id/readLongPress"
         android:layout_width="190dp"
         android:layout_height="30dp"
         android:layout_gravity="center"
         android:visibility="invisible" />
 
-    <com.kunfei.bookshelf.view.popupwindow.MediaPlayerPop
+    <com.liuyue.daydaybook.view.popupwindow.MediaPlayerPop
         android:id="@+id/mediaPlayerPop"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -148,35 +148,35 @@
             <View style="@style/Style.Shadow.Top" />
         </LinearLayout>
 
-        <com.kunfei.bookshelf.view.popupwindow.ReadBottomMenu
+        <com.liuyue.daydaybook.view.popupwindow.ReadBottomMenu
             android:id="@+id/read_menu_bottom"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:visibility="invisible" />
 
-        <com.kunfei.bookshelf.view.popupwindow.ReadAdjustPop
+        <com.liuyue.daydaybook.view.popupwindow.ReadAdjustPop
             android:id="@+id/readAdjustPop"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:visibility="invisible" />
 
-        <com.kunfei.bookshelf.view.popupwindow.ReadInterfacePop
+        <com.liuyue.daydaybook.view.popupwindow.ReadInterfacePop
             android:id="@+id/readInterfacePop"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:visibility="invisible" />
 
-        <com.kunfei.bookshelf.view.popupwindow.MoreSettingPop
+        <com.liuyue.daydaybook.view.popupwindow.MoreSettingPop
             android:id="@+id/moreSettingPop"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:visibility="invisible" />
 
-        <com.kunfei.bookshelf.view.popupwindow.ReadAdjustMarginPop
+        <com.liuyue.daydaybook.view.popupwindow.ReadAdjustMarginPop
             android:id="@+id/readAdjustMarginPop"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

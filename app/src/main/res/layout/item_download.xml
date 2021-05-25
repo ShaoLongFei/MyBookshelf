@@ -12,7 +12,7 @@
         android:orientation="horizontal"
         android:padding="16dp">
 
-        <com.kunfei.bookshelf.widget.image.CoverImageView
+        <com.liuyue.daydaybook.widget.image.CoverImageView
             android:id="@+id/iv_cover"
             android:layout_width="45dp"
             android:layout_height="65dp"
